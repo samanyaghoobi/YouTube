@@ -27,11 +27,14 @@ ssh username@your_server_ip
 در این مرحله، مخازن را به‌روزرسانی کرده و پیش‌نیازها را نصب کنید:
 
 ```bash
-sudo apt update && sudo apt upgrade -y  # اجرای upgrade اجباری نیست، اما توصیه می‌شود.
+sudo apt update && sudo apt upgrade -y  # اجرای upgrade اختیاری است اما توصیه می‌شود.
 sudo apt install -y curl
 ```
 
 ## مرحله 3: نصب پنل مرزبان
+مرجع: https://github.com/Gozargah/Marzban
+آموزش کامل نصب مرزبان فارسی: https://github.com/Gozargah/Marzban/blob/master/README-fa.md
+
 
 برای نصب پنل مرزبان، اسکریپت زیر را اجرا کنید:
 
