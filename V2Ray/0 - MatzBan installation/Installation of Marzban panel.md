@@ -55,6 +55,10 @@ sudo bash -c "$(curl -sL https://github.com/Gozargah/Marzban-scripts/raw/master/
   sudo apt install docker-compose
   ```
 
+  >اگر همچنان با `docker-compose` مشکل داشتید از منبع زیر استفاده کنید
+  >
+  >https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
+
 - **مشکل اتصال به Docker (برای سرورهای ایرانی):**
 
   اگر با مشکل اتصال به Docker مواجه شدید، مراحل زیر را دنبال کنید:
@@ -116,4 +120,4 @@ http://localhost:8000/dashboard/login
 
 تا راهنمای بعدی، خداحافظ! 👋
 
-https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
+
