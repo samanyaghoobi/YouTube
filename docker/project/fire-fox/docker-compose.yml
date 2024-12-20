@@ -12,3 +12,4 @@ services:
       ENABLE_TLS: "true"
       TLS_CERT_PATH: "/ssl/cert.pem"
       TLS_KEY_PATH: "/ssl/key.pem"
+      PASSWORD: ${{ secrets.URL_PASSWORD }}
